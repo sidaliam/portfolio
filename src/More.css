@@ -1,0 +1,61 @@
+
+.hotelContainer {
+  background-color:var(--primary) ; /* Couleur de fond */
+  padding: 20px; /* Espacement intérieur */
+  display: flex;
+  justify-content: center; /* Centrage horizontal */
+}
+
+/* Conteneur du projet */
+.hotelWrapper {
+  max-width: 800px; /* Largeur maximale */
+  width: 100%;
+  padding: 20px; /* Espacement intérieur */
+}
+
+/* Titre du projet */
+.hotelTitle {
+  font-size: 28px; /* Taille de la police */
+  margin-bottom: 10px; /* Espacement en bas */
+  color:var(--title); /* Couleur du texte */
+}
+.hotelTitle:hover {
+  color:var(--blue);
+}
+/* Catégorie du projet */
+.hotelAddress {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Description du projet */
+.hotelPriceHighlight {
+  font-size: 18px;
+  color: #666;;
+  margin-bottom: 50px;
+}
+
+
+/* Images du projet */
+.hotelImages {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+
+
+.hotelImg {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px; /* Coins arrondis */
+  transition: transform 0.3s ease; /* Transition fluide */
+}
+
+/* Effet de survol sur les images */
+.hotelImg:hover {
+  transform: scale(1.05); /* Agrandissement au survol */
+}
